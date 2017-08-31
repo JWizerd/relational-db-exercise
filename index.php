@@ -40,7 +40,7 @@
       }
     }
   }
-  // set var in global scope as it will be 'passed by reference' through functions and reset each time
+  // set var in global scope as it will be 'passed by reference' through functions as it will be altered each time lastInsertId() is ran
   $id = 0;
   function add_user_to_db($f_name, $l_name, $age, &$the_prev_id) {
     $db   = new DB();
