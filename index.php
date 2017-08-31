@@ -13,14 +13,6 @@
       $this->open_connection();
     }
 
-    public function get_id() {
-      return $this->id;
-    }
-
-    public function set_id($id) {
-      $this->id = $id;
-    }
-
     public function get_pdo_obj($pdo) {
       return $this->pdo;
     }
